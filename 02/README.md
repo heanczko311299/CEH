@@ -48,5 +48,4 @@
 6. Utilice servicios de registro anónimos
 7. Hacer cumplir las políticas de seguridad
 
-
-
+> Duda o comentarios en discord: heanczko#4478 | h4Ppy #@cK1n6 :)
