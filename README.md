@@ -29,5 +29,6 @@
 > Cada tema incluye un caso practico, es necesario realizar algunas configuraciones, de todas encontraras referencias.
 
 ### 2. CURSO EN PDF v10-2018
+  link
 
 > Duda o comentarios en discord: heanczko#4478 | h4Ppy #@cK1n6 :)
