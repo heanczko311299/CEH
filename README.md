@@ -7,7 +7,7 @@
 * **Introducción a Ethical Hacking**
 * **Footprinting y Reconocimiento**
 * **Escaneo de red**
-* **Enumeration**
+* **Enumeración**
 * **Analisis de Vulnerabilidades**
 * **Hackeo de sistemas**
 * **Malware**
@@ -15,14 +15,19 @@
 * **Ingenieria social**
 * **Denegación de servicos**
 * **Robo de sesiones**
+* **Evasión de IDS, Firewall y Honeypots**
 * **Hackeo a servidores web**
 * **Hackeo a aplicaciones web**
+* **SQL Injection**
+* **Hacking WiFi**
+* **Hacking Mobile**
+* **IoT Hacking**
+* **Cloud**
+* **Criptografia**
 
 
 > Cada tema incluye un caso practico, es necesario realizar algunas configuraciones, de todas encontraras referencias.
 
 ### 2. CURSO EN PDF v10-2018
 
-* **Dudas o comentario**
-> Discord: heanczko#4478
-> h4Ppy #@cK1n6 :)
+> Duda o comentarios en discord: heanczko#4478 | h4Ppy #@cK1n6 :)
