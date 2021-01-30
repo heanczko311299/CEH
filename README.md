@@ -17,7 +17,7 @@ Si bien estos equipos son altamente ofensivos y muy especializados, nunca serán
 https://www.eccouncil.org/ceh-vs-pentest/
 
 ### TEMARIO
-* **[1. Introducción a Ethical Hacking](https://github.com/heanczko311299/CEH/tree/main/01)** ####[PDF](#)
+* **[1. Introducción a Ethical Hacking](https://github.com/heanczko311299/CEH/tree/main/01)** #### [PDF](#)
 * **2. Footprinting y Reconocimiento**
 * **3. Escaneo de red**
 * **4. Enumeración**
