@@ -1,40 +1,37 @@
-### Reto 1
+# Reto 1 CEH Interno
+
+> Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet.
 
 ## Objetivo
-
-	¿Quien es el papá de Bobby?
+¿Quien es el papá de Bobby?
 
 ## Referencias
-
-## CEH v10
+### CEH: Conocimientos de Ethical Hacking
 
 	Session Hijacking
 
-## OWASP10.2017
+### OWASP10.2017
 
 	A1- Injection
 	A3- Broken Autentication & Session management
 
-** Antes de iniciar, recuerda hacer prueba de red y verificar los accesos a Mutillidae e Internet.
-
-### CyberKillChain
+### Pentest-CyberKillChain
 
 ## Reconocimento: 
 
 - Bobby es usuario de Twitter, Reddit, Github y Mutillidae. 
-- Mutillidae es una web con vulnerabilidades.
+- Mutillidae es una web con vulnerabilidades, veamos los directorios con dirsearch.
 - Ingresa a Mutillidae en Metasploitable del Laboratorio http://metasploitable/mutillidae
-- Reconocimiento con Metasploit (PortScan)	
+- 
 
 ## Militarizacion:
-- Ciclo del error: deja notas en todas partes.
+- Ciclo del error (Tabu): deja notas en todas partes.
 - Exceso de seguridad (Totem): Depende de la seguridad de Mutillidae (login - cookies vulnerables)
 
 ## Entrega:
 - Roba una sesion con un SQL Injection en login.php
 - Adivina las cookies de la sesion de Bobby, en el index.
-	** Rodrigo, Uruguay, Pirata de Hamburgo, DORK
-	@google pirata hamburgo, rodrigo
+	* @google pirata hamburgo, rodrigo
 
 ## Explotacion:
 - Actualiza el front y accede a la sesion de Bobby para obtener el nombre de su papá.
