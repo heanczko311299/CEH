@@ -29,5 +29,9 @@
 
 ### CURSO EN PDF v10-2018
   link
+  
+### Mis otros Repos
+* **[githack](https://github.com/heanczko311299/githack)**
 
-> Duda o comentarios en discord: heanczko#4478 | h4Ppy #@cK1n6 :)
+h4Ppy #@cK1n6 :)
+> Discord: heanczko#4478
