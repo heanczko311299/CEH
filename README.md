@@ -17,7 +17,7 @@ Si bien estos equipos son altamente ofensivos y muy especializados, nunca serán
 https://www.eccouncil.org/ceh-vs-pentest/
 
 ### TEMARIO
-* **[1. Introducción a Ethical Hacking](https://github.com/heanczko311299/CEH/tree/main/01)**         [pdf](#)
+* **[1. Introducción a Ethical Hacking](https://github.com/heanczko311299/CEH/tree/main/01)**
 * **2. Footprinting y Reconocimiento**
 * **3. Escaneo de red**
 * **4. Enumeración**
@@ -38,7 +38,7 @@ https://www.eccouncil.org/ceh-vs-pentest/
 * **19. Cloud**
 * **20. Criptografia**
 
-> Cada tema incluye un caso practico, es necesario realizar algunas configuraciones, de todas encontraras referencias, el tema en el PDF oficial del EC-Coucil
+> Cada tema incluye un caso practico, es necesario realizar algunas configuraciones, de todas encontraras referencias, tambien se incluye el PDF de EC-Coucil en cada tema
 
 ### Mis otros Repos
 * **[githack](https://github.com/heanczko311299/githack)**
