@@ -2,6 +2,18 @@
 
 > Repositorio en español de Certified Ethical Hacking de EC-Coucil.
 
+### CEH
+### Opinion de EC-Coucil
+
+La comparación de Ethical Hacker y Pentest es engañosa. El Ethical Hacking por sí solo NO realiza una prueba de penetración.
+
+Las pruebas de penetración se centran en la seguridad del área específica definida para las pruebas. 
+El hackeo ético es un término completo y las pruebas de penetración es una ejecucion.
+
+Quizás debido a la popularidad de su nombre, CEH se ha percibido incorrectamente como un curso de pruebas de penetración. No lo es. El curso CEH del EC-Council es un catalizador que puede llevar al alumno a una variedad de trabajos en seguridad de la información y no solo en pruebas de penetración.
+
+Si bien estos equipos son altamente ofensivos y muy especializados, nunca serán parte de una prueba de penetración. En otras organizaciones, los Ethical Hackers se utilizan para una amplia variedad de funciones laborales para aumentar las redes y los métodos mediante los cuales las herramientas y los protocolos se comunican. Algunos son técnicos de equipos de prevención de intrusiones, controladores de incidentes SOC II, cazadores de amenazas, etc. El Ethical Hacking de hecho tiene una parte en las pruebas de penetración, pero eso es solo una pieza y realmente se sostiene por sí sola.
+
 ### TEMARIO
 
 * **1. Introducción a Ethical Hacking**
