@@ -25,12 +25,12 @@
 	
 ### - Armamento 
 - Robar la sesion del usuario de WP con un ataque de fuerza bruta, prueba con WPScan o Hydra
-- Robar la sesion del servidor con un [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell/README.md), 
+- Robar la sesion del servidor con un [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell.md), 
 
 ## 3. Entrega (Delivery)
 - wp-login
 - error404 - pluggins
-- Prepara la recepcion del [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell/README.md)
+- Prepara la recepcion del [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell.md)
 		
 ## 4. Explotación (Exploitation)
 - Activa el pluggin o produce un error para obtener la shell en tu maquina atacante
