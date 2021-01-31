@@ -1,48 +1,37 @@
-### Reto 2
+# Reto 1 CEH Interno
+
+> Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet.
 
 ## Objetivo
+### - Principal
+¿Quien es el apellido de Jakub?
+### - Militarizado
+Controlar una forma de acceder a la informacion de Jakub
 
-	¿Cual es el apellido Jakub?
+## 1. Reconocimiento (Recoonnaissance)
+### - Research
+- Jakub debe estar enlazado con Mutillidae
+- Mutillidae ya fue explotado en login y con las cookies
+- Reutiliza las pruebas anteriores hasta obtener mando y control
+### - Reconocimiento del sistema
+- Reconocimiento de red y script de vulnerabilidades RustScan
+- Ingresa a Mutillidae en Metasploitable del Laboratorio http://metasploitable/mutillidae
+- Reconoce los directorios con DirSearch
 
-## Referencias
+## 2. Militarizacion (Weaponization)
+### - Estrategia
+- Ciclo del error (Tabu): el sistemas utiliza versiones obsoletas y vulnerables
+- Exceso de seguridad (Totem):  Se confia en que el usuario realizara la busqueda correcta de DNS en dns-lookup.php
+	
+### - Armamento 
+- Prepara el exploit de acuerdo a la respuesta que acepte el servidor
+- Netcat tiene una version obsoleta, algunos trucos pueden ayudarte
 
-## CEH v10
-
-- Session Hijacking
-
-## OWASP10.2017
-
-- A1* Injection (Command)
-- A6* Security Misconfiguration
-
-** Antes de iniciar, recuerda hacer prueba de red y verificar los accesos a Mutillidae e Internet.
-
-### CyberKillChain
-
-## Reconocimento: 
-- Reutiliza el reconocimiento anterior
-- Jakub debe estar enlazado con Metasploitable
-- Accede a Multillidae http://metasploitable/mutillidae
-
-## Militarizacion:
-- Ciclo del error: 
-  - Reutiliza exploits funcionales (SQL injection).
-  - Reutiliza el commando & control anterior.
-  - Valida las versiones y los exploits a utilizar ¿Estas de acuerdo?
-				 
-- Exceso de seguridad (Totem): 
-  - Reutiliza la confianza en una app vulnerable.
-  - Confia en que el usuario realizara la busqueda correcta de DNS, y no ejecutara algun comando ¿Estas de acuerdo?	
-  - Prepara el exploit correcto, para obtener un shell remoto, recuerda que dependes lo que acepte el servidor.
-	** Netcat puede ser una opcion.
-
-## Entrega:
-- En espera de acciones en login.php
-- En espera de acciones para acceder por cookies
-- Valida la entrega en versiones vulnerables 
-- Entrega en dns.lookup.php
+## 3. Entrega (Delivery)
+- login.php
+- dns.lookup.php
 - Prepara la recepcion en tu kali con
-	$ nc -lvnp 1234
+	nc -lvnp 1234
 		
 ## Explotacion:
 - Ingresa en la entrega dns-lookup.php
@@ -69,3 +58,17 @@
 ## Acciones en el objetivo:
 - En lista las versiones vulnerables que validaste en la entrega, y prepara los exploits.
 - Si el login.php es vulnerable a SQL Injection, el login de user-info lo será? Qué obtenemos?
+
+## Referencias
+
+### Conocimientos de Ethical Hacking
+* **[Robo de Sesiones (Session Hijacking)](https://github.com/heanczko311299/CEH/blob/main/11/README.md)**
+
+### Pruebas de seguridad aplicativa 
+* **OWASP10.2017 / A1 - Injection Command** 
+* **OWASP10.2017 / A6- Security Misconfiguration**
+
+### Pruebas de Penetración
+* **[CyberKillChain](https://github.com/heanczko311299/githack/tree/main/Metodologias/CyberKillChain/README.md)**
+
+h4Ppy #@cK1n6 :)
