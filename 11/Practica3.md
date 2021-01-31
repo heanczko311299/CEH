@@ -34,16 +34,14 @@
 		
 ## 4. Explotación (Exploitation)
 - Activa el pluggin o produce un error para obtener la shell en tu maquina atacante
-- Obten un shell interactivo utilizando python
-	$ python -c 'import pty; pty.spawn("/bin/bash")'
+- Obten un shell interactivo utilizando [Python](https://github.com/heanczko311299/githack/blob/main/Trucos/Pentest.md)
 - Busca el key 2
 - Desifra el hash con [John](https://github.com/openwall/john), para obtener el Key 2
 	
 ## 5. Instalación (Installation)
 - Crea una cuenta en WP con máximos privilegios, que te permita tener acceso diferente al usuario hackeado
 - Busca instalarte en el root para obtener el key 3
-- Busca archivos con SUID configurado que permitan que ejecutes en root
-> Quiza aqui encuentres una pista
+- Busca [archivos SUID](https://github.com/heanczko311299/githack/blob/main/Trucos/Pentest.md) configurados que permitan que ejecución en root
 - Escala privilegios para instalarte en root y obtener el key 3
 - Crea una cuenta para acceder a la informacion del root sin realizar la explotacion
 	
