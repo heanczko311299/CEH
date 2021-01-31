@@ -32,7 +32,8 @@ Controlar una forma de acceder a la informacion de Bobby
 
 ## Explotacion:
 - Roba SQL Injection en login.php
-- Adivina las cookies y roba la sesion de Bobby para obtener el nombre de su papá.
+- Adivina las cookies y roba la sesion de Bobby para obtener el nombre de su papá
+> Pista: Pirata uruguayo de Hamburgo
 	
 ## Instalación:
 - Crea un usuario, donde puedas mantener el acceso.
@@ -43,15 +44,16 @@ Controlar una forma de acceder a la informacion de Bobby
 - Confirma el acesso a la cuenta de bobby por medio de las cookies con tu nuevo usuario.
 		
 ## Acciones en el objetivo:
-- El conocer el apodo del Admin de mutillidae 'Monkey!', son acciones en el objetivo.
+- Buscar obtener datos de otros usuarios.
+- Conservar reconociientos de red y aplicacion para futuros ataques.
 
 ## Referencias
 
-### Conocimientos 
-##### Ethical Hacking Session Hijacking
+### Conocimientos de Ethical Hacking
+- Robo de Sesiones (Session Hijacking)
 
 ### Pruebas de seguridad aplicativa OWASP10.2017 
-##### A1- Injection 
-##### A3- Broken Autentication & Session management
+- A1- Injection 
+- A3- Broken Autentication & Session management
 
 ### Pruebas de Intrusión CyberKillChain
