@@ -3,42 +3,40 @@
 > Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet.
 
 ## Objetivo
+### Principal
 ¿Quien es el papá de Bobby?
+### Militarizado
+Controlar una forma de acceder a la informacion de Bobby
 
-## Referencias
-### CEH: Conocimientos de Ethical Hacking
-
-	Session Hijacking
-
-### OWASP10.2017
-
-	A1- Injection
-	A3- Broken Autentication & Session management
-
-### Pentest-CyberKillChain
-
-## Reconocimento: 
-
-- Bobby es usuario de Twitter, Reddit, Github y Mutillidae. 
-- Mutillidae es una web con vulnerabilidades, veamos los directorios con dirsearch.
+## Reconocimento
+### Dork
+- Bobby es mi amigo 'el descuidado'
+- Bobby es usuario de Instagram, Twitter y Mutillidae 
+- Mutillidae es una web con vulnerabilidades
+- Reconocimiento de red y script de vulnerabilidades RustScan 
 - Ingresa a Mutillidae en Metasploitable del Laboratorio http://metasploitable/mutillidae
-- 
+- Reconoce los directorios con DirSearch
 
 ## Militarizacion:
-- Ciclo del error (Tabu): deja notas en todas partes.
-- Exceso de seguridad (Totem): Depende de la seguridad de Mutillidae (login - cookies vulnerables)
+### Estrategia
+- Ciclo del error (Tabu): deja notas en todas partes, encontre la nota 
+- Exceso de seguridad (Totem): depende de la seguridad de Mutillidae (login - cookies)
+
+### Armamento
+- SQL Injection para ingresar a alguna sesion
+- Vulnerar las cookies con Mozilla buscando informacion Bobby
 
 ## Entrega:
-- Roba una sesion con un SQL Injection en login.php
-- Adivina las cookies de la sesion de Bobby, en el index.
-	* @google pirata hamburgo, rodrigo
+- login.php
+- index posterior al inicio de sesion
 
 ## Explotacion:
-- Actualiza el front y accede a la sesion de Bobby para obtener el nombre de su papá.
+- Roba SQL Injection en login.php
+- Adivina las cookies y roba la sesion de Bobby para obtener el nombre de su papá.
 	
 ## Instalación:
 - Crea un usuario, donde puedas mantener el acceso.
-	** Utiliza usuarios que no sean sospechosos ejem. soporte@mutillidae.org
+> Utiliza usuarios que no sean sospechosos ejem. soporte@mutillidae.org
 - Borra los logs.
 	
 ## Comando & Control:
@@ -46,3 +44,14 @@
 		
 ## Acciones en el objetivo:
 - El conocer el apodo del Admin de mutillidae 'Monkey!', son acciones en el objetivo.
+
+## Referencias
+
+### Conocimientos 
+##### Ethical Hacking Session Hijacking
+
+### Pruebas de seguridad aplicativa OWASP10.2017 
+##### A1- Injection 
+##### A3- Broken Autentication & Session management
+
+### Pruebas de Intrusión CyberKillChain
