@@ -41,7 +41,7 @@ https://www.eccouncil.org/ceh-vs-pentest/
 > Cada tema incluye un caso practico, es necesario realizar algunas configuraciones, de todas encontraras referencias, tambien se incluye el PDF de EC-Coucil en cada tema
 
 ### Mis otros Repos
-* **[githack](https://github.com/heanczko311299/githack/README.md)**
+* **[githack](https://github.com/heanczko311299/githack/blob/main/README.md)**
 
 h4Ppy #@cK1n6 :)
 > Discord: heanczko#4478
