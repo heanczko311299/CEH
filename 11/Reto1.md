@@ -51,12 +51,13 @@ Controlar una forma de acceder a la informacion de Bobby
 ## Referencias
 
 ### Conocimientos de Ethical Hacking
-- Robo de Sesiones (Session Hijacking)
+* **[Robo de Sesiones (Session Hijacking)](https://github.com/heanczko311299/CEH/blob/main/11/README.md)**
 
-### Pruebas de seguridad aplicativa OWASP10.2017 
-- A1- Injection 
-- A3- Broken Autentication & Session management
+### Pruebas de seguridad aplicativa 
+* **OWASP10.2017 / A1 - Injection** 
+* **OWASP10.2017 / A3- Broken Autentication & Session management**
 
-### Pruebas de Intrusión CyberKillChain
+### Pruebas de Penetración
+* **[CyberKillChain](https://github.com/heanczko311299/githack/tree/main/Metodologias/CyberKillChain/README.md)**
 
 h4Ppy #@cK1n6 :)
