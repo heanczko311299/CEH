@@ -26,17 +26,16 @@ Controlar una forma de acceder a la informacion de Jakub
 	
 ### - Armamento 
 - Robar la sesion con un exploit, de acuerdo a la respuesta que acepte el servidor
-> netcat, tiene una version obsoleta, algunos [trucos](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell/README.md) pueden ayudarte.
+> netcat, tiene una version obsoleta, algunos [trucos](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell.md) pueden ayudarte.
 
 ## 3. Entrega (Delivery)
 - login.php
 - dns-lookup.php
-- Prepara la recepcion del [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell/README.md)
+- Prepara la recepcion del [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell.md)
 		
 ## 4. Explotación (Exploitation)
 - Envia en entrega dns-lookup.php
-- Obten un shell interactivo utilizando python
-	$ python -c 'import pty; pty.spawn("/bin/bash")'
+- Obten un shell interactivo utilizando [Python](https://github.com/heanczko311299/githack/blob/main/Trucos/Python.md)
 - Busca algun dato sobre Jakub en la carpeta
 - Consigue el apellido haciendo Dorking, tendras el objetivo
 	
