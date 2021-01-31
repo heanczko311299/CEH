@@ -8,44 +8,45 @@
 ### Militarizado
 Controlar una forma de acceder a la informacion de Bobby
 
-## Reconocimento
-### Dork
+## 1. Reconocimiento (Recoonnaissance)
+### - Dork
 - Bobby es mi amigo 'el descuidado'
 - Bobby es usuario de Instagram, Twitter y Mutillidae 
 - Mutillidae es una web con vulnerabilidades
+### - Reconocimiento del sistema
 - Reconocimiento de red y script de vulnerabilidades RustScan 
 - Ingresa a Mutillidae en Metasploitable del Laboratorio http://metasploitable/mutillidae
 - Reconoce los directorios con DirSearch
 
-## Militarizacion:
-### Estrategia
+## 2. Militarizacion (Weaponization)
+### - Estrategia
 - Ciclo del error (Tabu): deja notas en todas partes, encontre la nota 
 - Exceso de seguridad (Totem): depende de la seguridad de Mutillidae (login - cookies)
 
-### Armamento
-- SQL Injection para ingresar a alguna sesion
-- Vulnerar las cookies con Mozilla buscando informacion Bobby
+### - Armamento 
+- Robar con SQL Injection alguna sesion
+- Adivinar las cookies con Mozilla buscando informacion Bobby, mantener herramientas de cifrado si se requieren
 
-## Entrega:
+## 3. Entrega (Delivery)
 - login.php
 - index posterior al inicio de sesion
 
-## Explotacion:
-- Roba SQL Injection en login.php
-- Adivina las cookies y roba la sesion de Bobby para obtener el nombre de su papá
+## 4. Explotación (Exploitation)
+- Robar SQL Injection en login.php
+- Adivinar las cookies y roba la sesion de Bobby para obtener el nombre de su papá
 > Pista: Pirata uruguayo de Hamburgo
 	
-## Instalación:
-- Crea un usuario, donde puedas mantener el acceso.
-> Utiliza usuarios que no sean sospechosos ejem. soporte@mutillidae.org
-- Borra los logs.
+## 5. Instalación (Installation)
+- Crear un usuario, donde puedas mantener el acceso.
+> Utilizar usuarios que no sean sospechosos ejem. soporte@mutillidae.org
 	
-## Comando & Control:
-- Confirma el acesso a la cuenta de bobby por medio de las cookies con tu nuevo usuario.
+## 6. Mando y Control (Command & Control)
+- Confirmar el acesso a la cuenta de bobby por medio de las cookies con tu nuevo usuario
+- Borra los logs
 		
-## Acciones en el objetivo:
-- Buscar obtener datos de otros usuarios.
-- Conservar reconociientos de red y aplicacion para futuros ataques.
+## 7. Acciones en el objetivo (Actions on Objectives)
+- Buscar obtener datos de otros usuarios
+- Conservar reconocimientos de red y aplicacion para futuros ataques
 
 ## Referencias
 
@@ -57,3 +58,5 @@ Controlar una forma de acceder a la informacion de Bobby
 - A3- Broken Autentication & Session management
 
 ### Pruebas de Intrusión CyberKillChain
+
+h4Ppy #@cK1n6 :)
