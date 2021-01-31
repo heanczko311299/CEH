@@ -3,9 +3,9 @@
 > Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet.
 
 ## Objetivo
-### Principal
+### - Principal
 ¿Quien es el papá de Bobby?
-### Militarizado
+### - Militarizado
 Controlar una forma de acceder a la informacion de Bobby
 
 ## 1. Reconocimiento (Recoonnaissance)
