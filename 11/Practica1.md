@@ -17,6 +17,8 @@ Controlar una forma de acceder a la informacion de Bobby
 - Reconocimiento de red y script de vulnerabilidades RustScan 
 - Ingresa a Mutillidae en Metasploitable del Laboratorio http://metasploitable/mutillidae
 - Reconoce los directorios con DirSearch
+- En el input de login.php acepta caracteres especiales
+- En el reconocimiento se detecta que Mutillidae tiene cifrados debiles
 
 ## 2. Militarizacion (Weaponization)
 ### - Estrategia
