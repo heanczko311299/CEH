@@ -24,7 +24,7 @@
 - Exceso de seguridad (Totem):  Confia en un sistema de gestion de contenidos (WP)
 	
 ### - Armamento 
-- Robar la sesion del usuario de WP con un ataque de fuerza bruta, prueba con [WPScan](https://github.com/wpscanteam/wpscan/README.md) o [Hydra](https://github.com/vanhauser-thc/thc-hydra/README.md)
+- Robar la sesion del usuario de WP con un ataque de fuerza bruta, prueba con [WPScan](https://github.com/wpscanteam/wpscan/blob/master/README.md) o [Hydra](https://github.com/vanhauser-thc/thc-hydra/blob/master/README.md)
 - Robar la sesion del servidor con un [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell.md), 
 
 ## 3. Entrega (Delivery)
