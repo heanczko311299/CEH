@@ -1,11 +1,11 @@
 # Practica 3 
 
-> Antes de iniciar, recuerda probar la conexion, configura tu localhost en este caso configuramos la IP como 'mr.robot.cft'
+> Antes de iniciar, recuerda probar la conexion, en tu localhost [configura la IP](https://github.com/heanczko311299/githack/blob/main/Trucos/Pentest.md) como 'mr.robot.cft'
 
 ## Objetivo
-### - Key 1
-### - Key 2
-### - Key 3
+* **Key 1**
+* **Key 2**
+* **Key 3**
 
 ## 1. Reconocimiento (Recoonnaissance)
 ### - Reconocimiento del sistema
@@ -24,7 +24,7 @@
 - Exceso de seguridad (Totem):  Confia en un sistema de gestion de contenidos (WP)
 	
 ### - Armamento 
-- Robar la sesion del usuario de WP con un ataque de fuerza bruta, prueba con WPScan o Hydra
+- Robar la sesion del usuario de WP con un ataque de fuerza bruta, prueba con [WPScan](https://github.com/wpscanteam/wpscan/README.md) o [Hydra](https://github.com/vanhauser-thc/thc-hydra/README.md)
 - Robar la sesion del servidor con un [ReverseShell](https://github.com/heanczko311299/githack/blob/main/Trucos/ReverseShell.md), 
 
 ## 3. Entrega (Delivery)
