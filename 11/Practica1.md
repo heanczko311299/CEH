@@ -1,4 +1,4 @@
-# Reto 1 CEH Interno
+# Practica 1
 
 > Antes de iniciar, recuerda hacer prueba de red, debes tener alcance a la Metasplotable y a internet.
 
