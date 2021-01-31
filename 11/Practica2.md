@@ -35,7 +35,7 @@ Controlar una forma de acceder a la informacion de Jakub
 		
 ## 4. Explotación (Exploitation)
 - Envia en entrega dns-lookup.php
-- Obten un shell interactivo utilizando [Python](https://github.com/heanczko311299/githack/blob/main/Trucos/Python.md)
+- Obten un shell interactivo utilizando [Python](https://github.com/heanczko311299/githack/blob/main/Trucos/Pentest.md)
 - Busca algun dato sobre Jakub en la carpeta
 - Consigue el apellido haciendo Dorking, tendras el objetivo
 	
