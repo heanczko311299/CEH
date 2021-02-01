@@ -34,13 +34,12 @@
 
 ## Contramedidas
 
-1. Restrinja el acceso de los empleados a los sitios de redes sociales.
+1. Restrinja el acceso de los empleados a los sitios de redes sociales
 2. Configurar servidores web para evitar la fuga de información
-3. Eduque a los empleados para que utilicen seudónimos
-4. Limita la cantidad de información que publicas.
+3. Eduque a los empleados sobre proteger informacion
+4. Limita la cantidad de información que publicas
 5. Utilice técnicas de huella para descubrir y eliminar información confidencial
-6. Utilice servicios de registro anónimos
-7. Hacer cumplir las políticas de seguridad
+6. Hacer cumplir las políticas de seguridad
 
 h4Ppy #@cK1n6 :)
 > Discord: heanczko#4478
