@@ -54,16 +54,5 @@
 > Se creativo
 - En lista 3 tecnicas con las podrias hacer daño
 
-## Referencias
-
-### Conocimientos de Ethical Hacking
-* **[Robo de Sesiones (Session Hijacking)](https://github.com/heanczko311299/CEH/blob/main/11/README.md)**
-
-### Pruebas de seguridad aplicativa 
-* **OWASP10.2017 / A1 - Injection Command** 
-* **OWASP10.2017 / A6- Security Misconfiguration**
-
-### Pruebas de Penetración
-* **[CyberKillChain](https://github.com/heanczko311299/githack/tree/main/Metodologias/CyberKillChain/README.md)**
 
 h4Ppy #@cK1n6 :)
