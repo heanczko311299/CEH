@@ -13,22 +13,22 @@
 - Extrae información usando DNS Zone Transfer
 
 ## Puertos populares para enumerar
-- TCP / UDP 53 - Transferencia de zona DNS
-- TCP / UDP 135 - Microsoft EPC Endpoint Manager
-- UDP 137 - Servicio de nombres NetBIOS \ (NBNS \)
+- TCP/UDP 53 - Transferencia de zona DNS
+- TCP/UDP 135 - Microsoft EPC Endpoint Manager
+- UDP 137 - Servicio de nombres NetBIOS
 - TCP 139 - SMB sobre NetBIOS
-- TCP / UDP 445 - SMB sobre TCP \ (host directo \)
-- UDP 161 - Protocolo simple de administración de red \ (SNMP \)
-- TCP / UDP 389 - Protocolo ligero de acceso a directorios \ (LDAP \)
-- TCP / UDP 3268 - Servicio de catálogo global
-- TCP 25 - Protocolo simple de transferencia de correo \ (SMTP \)
-- TCP / UDP 162 - Trampa SNMP
+- TCP/UDP 445 - SMB sobre TCP
+- UDP 161 - Protocolo simple de administración de red
+- TCP/UDP 389 - Protocolo ligero de acceso a directorios
+- TCP/UDP 3268 - Servicio de catálogo global
+- TCP 25 - Protocolo simple de transferencia de correo
+- TCP/UDP 162 - Trampa SNMP
 
 ## Enumeración NetBIOS
 
 * El nombre NetBIOS es una cadena ASCII única de 16 que se utiliza para identificar los dispositivos de red
-* La utilidad Nbtstat muestra las estadísticas del protocolo NetBIOS sobre TCP / IP, las tablas de nombres NetBIOS / caché
-* La utilidad Net View se utiliza para obtener una lista de todos los recursos compartidos de hosts remotos o grupos de trabajo.
+* La utilidad Nbtstat muestra las estadísticas del protocolo NetBIOS sobre TCP/IP, las tablas de nombres NetBIOS/caché
+* La utilidad Net View se utiliza para obtener una lista de todos los recursos compartidos de hosts remotos o grupos de trabajo
 
 ## Enumeración SNMP
 
@@ -37,17 +37,17 @@
 * **SNMP tiene dos contraseñas**
 - El atacante usa cadenas de comunidad predeterminadas para extraer información
 - Lo usa para extraer información sobre recursos de red como hosts, enrutadores, dispositivos, recursos compartidos
-* Base de información de gestión \ (MIB \)
+* Base de información de gestión
 - MIB es una base de datos virtual que contiene una descripción formal de todos los objetos de red administrados mediante SNMP
 
 ## Enumeración LDAP
 
 - LDAP es un protocolo de Internet para acceder a servicios de directorio distribuidos
-- El atacante consulta el servicio LDAP para recopilar información como nombres de usuarios válidos, direcciones, detalles departamentales, etc.
+- El atacante consulta el servicio LDAP para recopilar información como nombres de usuarios válidos, direcciones, detalles departamentales, etc
 
 ## Enumeración NTP
 
-- Network Time Protocol \ (NTP \) está diseñado para sincronizar relojes de computadoras en red
+- Network Time Protocol está diseñado para sincronizar relojes de computadoras en red
 - Utiliza el puerto UDP 123
 - Puede usarlo para encontrar información importante en una red
 - Puede usar Nmap, Wireshark
@@ -64,9 +64,9 @@
 ## Contramedidas de enumeración
 
 * **Contramedidas SNMP**
-- Eliminar el agente SNMP y apagar el servicio SNMP \ (bloque 161 \)
+- Eliminar el agente SNMP y apagar el servicio SNMP
 - Cambiar el nombre de la cadena de comunidad predeterminada
-- Actualice a SNMP3, que cifra contraseñas / mensajes
+- Actualice a SNMP3, que cifra contraseñas/mensajes
 - Implementar una opción de seguridad adicional llamada "restricciones adicionales para conexiones anónimas"
 - Asegúrese de que el acceso a las tuberías de sesión nula, los recursos compartidos de sesión nula y el filtrado IPsec estén restringidos
 * **Contramedidas DNS**
@@ -87,7 +87,7 @@
 * **Prueba de pluma de enumeración**
 - Se utiliza para identificar cuentas de usuario válidas o recursos compartidos mal protegidos
 - La información puede ser usuarios y grupos, recursos de red
-- Se utiliza en combinación con los datos recopilados en la fase de reconocimiento.
+- Se utiliza en combinación con los datos recopilados en la fase de reconocimiento
 
 - Pasos en la prueba de pluma de enumeración
 1. Encuentra el rango de la red
