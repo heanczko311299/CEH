@@ -27,6 +27,7 @@
 * **Amenazas móviles**:ataques por telefonos moviles
 * **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados ara realizar multiples ataques
 * **Insider Attack**: un ataque realizado en una red corporativa por una persona de confianza con acceso
+
 * **Categorías de amenazas**:
 - Amenazas de red
 - Host Amenazas
