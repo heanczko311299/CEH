@@ -56,16 +56,5 @@ Controlar una forma de acceder a la informacion de Jakub
 - Si el login.php es vulnerable a SQL Injection, el login de user-info lo será? Qué obtenemos?
 - En lista las versiones vulnerables que validaste en la entrega, y prepara los exploits.
 
-## Referencias
-
-### Conocimientos de Ethical Hacking
-* **[Robo de Sesiones (Session Hijacking)](https://github.com/heanczko311299/CEH/blob/main/11/README.md)**
-
-### Pruebas de seguridad aplicativa 
-* **OWASP10.2017 / A1 - Injection Command** 
-* **OWASP10.2017 / A6- Security Misconfiguration**
-
-### Pruebas de Penetración
-* **[CyberKillChain](https://github.com/heanczko311299/githack/tree/main/Metodologias/CyberKillChain/README.md)**
 
 h4Ppy #@cK1n6 :)
