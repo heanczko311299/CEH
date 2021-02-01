@@ -4,7 +4,7 @@
 
 * En la fase de enumeración, el atacante crea conexiones activas al sistema y realiza consultas dirigidas para obtener más información. Utiliza esta información para identificar puntos de ataque al sistema y realizar ataques a contraseñas
 
-* Técnicas de enumeración
+## Técnicas de enumeración
 - Extrae nombres de usuario usando ID de correo electrónico
 - Extrae nombres de usuario usando SNMP
 - Extraer grupos de usuarios de Windows
@@ -12,7 +12,7 @@
 - Direcciones activas de fuerza bruta
 - Extrae información usando DNS Zone Transfer
 
-* Puertos populares para enumerar
+## Puertos populares para enumerar
 - TCP / UDP 53 - Transferencia de zona DNS
 - TCP / UDP 135 - Microsoft EPC Endpoint Manager
 - UDP 137 - Servicio de nombres NetBIOS \ (NBNS \)
@@ -32,9 +32,9 @@
 
 ## Enumeración SNMP
 
-* La enumeración SNMP es un proceso de enumeración de cuentas de usuario y dispositivos en un sistema de destino mediante SNMP
-* SNMP contiene un administrador y un agente. Los agentes están integrados en cada red, el administrador está instalado en una computadora separada
-* SNMP tiene dos contraseñas
+* **La enumeración SNMP es un proceso de enumeración de cuentas de usuario y dispositivos en un sistema de destino mediante SNMP**
+* **SNMP contiene un administrador y un agente. Los agentes están integrados en cada red, el administrador está instalado en una computadora separada**
+* **SNMP tiene dos contraseñas**
 - El atacante usa cadenas de comunidad predeterminadas para extraer información
 - Lo usa para extraer información sobre recursos de red como hosts, enrutadores, dispositivos, recursos compartidos
 * Base de información de gestión \ (MIB \)
@@ -54,40 +54,41 @@
 
 ## Enumeración SMTP y DNS
 
-* SMTP tiene 3 comandos integrados
+* **SMTP tiene 3 comandos integrados**
 - VRFY: valida a los usuarios
 - EXPN: indica las direcciones de entrega reales de alias y listas de correo
 - RCPT TO: define los destinatarios del mensaje
-* Los servidores SMTP responden de manera diferente a estos comandos
-* Los atacantes pueden interactuar directamente con SMTP a través del indicador de telnet y recopilar una lista de usuarios válidos en el servidor SMTP
+* **Los servidores SMTP responden de manera diferente a estos comandos**
+* **Los atacantes pueden interactuar directamente con SMTP a través del indicador de telnet y recopilar una lista de usuarios válidos en el servidor SMTP**
 
 ## Contramedidas de enumeración
 
-* Contramedidas SNMP
+* **Contramedidas SNMP**
 - Eliminar el agente SNMP y apagar el servicio SNMP \ (bloque 161 \)
 - Cambiar el nombre de la cadena de comunidad predeterminada
 - Actualice a SNMP3, que cifra contraseñas / mensajes
 - Implementar una opción de seguridad adicional llamada "restricciones adicionales para conexiones anónimas"
 - Asegúrese de que el acceso a las tuberías de sesión nula, los recursos compartidos de sesión nula y el filtrado IPsec estén restringidos
-* Contramedidas DNS
+* **Contramedidas DNS**
 - Deshabilitar las transferencias de zona DNS a los hosts que no son de confianza
 - Asegúrese de que los hosts privados y sus direcciones IP no se publiquen en los archivos de zona DNS del servidor DNS público
 - Utilice servicios de registro de DNS premium para ocultar información confidencial
 - Utilice contactos de administrador de red estándar para registros de dns con el fin de evitar ataques de ingeniería social
-* Contramedidas SMTP
+* **Contramedidas SMTP**
 - Ignore los mensajes de correo electrónico a destinatarios desconocidos
 - Deshabilitar las funciones de relé abierto
 - No incluya información confidencial del servidor de correo ni del host local en las respuestas por correo
 
-* Contramedidas LDAP
+* **Contramedidas LDAP**
 - Restrinja el acceso al directorio activo mediante el uso de software como citrix
 - Habilitar bloqueo de cuenta
 - Utilice la tecnología SSL para el tráfico LDAP
 
-* Prueba de pluma de enumeración
+* **Prueba de pluma de enumeración**
 - Se utiliza para identificar cuentas de usuario válidas o recursos compartidos mal protegidos
 - La información puede ser usuarios y grupos, recursos de red
 - Se utiliza en combinación con los datos recopilados en la fase de reconocimiento.
+
 - Pasos en la prueba de pluma de enumeración
 1. Encuentra el rango de la red
 2. Calcular la máscara de subred
