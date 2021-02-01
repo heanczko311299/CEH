@@ -148,4 +148,5 @@ proteger y asegurar los sistemas de información de las organizaciones.
 * **Computer Misuse Act of 1990**: aborda las actividades de piratería
 * **Human Rights Act of 1990**: garantiza la privacidad
 
-> Duda o comentarios en discord: heanczko#4478 | h4Ppy #@cK1n6 :)
+h4Ppy #@cK1n6 :)
+> Discord: heanczko#4478
