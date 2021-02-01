@@ -29,14 +29,14 @@
 * **Insider Attack**: un ataque realizado en una red corporativa por una persona de confianza con acceso
 
 * **Categorías de amenazas**:
-- Amenazas de red
-- Host Amenazas
-- Amenazas de aplicaciones
+- 1. Amenazas de red
+- 2. Host Amenazas
+- 3. Amenazas de aplicaciones
 * **Tipos de ataques**:
-- Ataques al sistema operativo
-- Ataques de mala configuración
-- Ataques a nivel de aplicación
-- Código de ReverseShell
+- 1. Ataques al sistema operativo
+- 2. Ataques de mala configuración
+- 3. Ataques a nivel de aplicación
+- 4. Código de ReverseShell
 
 ## Conceptos, tipos y fases de hacking
 
