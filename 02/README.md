@@ -18,7 +18,7 @@
 6. Inteligencia competitiva
 > La recopilación de inteligencia competitiva es el proceso de identificar, recopilar, analizar y verificar, y utilizar la información sobre sus competidores de fuentes como Internet. Monitoreo del tráfico web, no interfiere y es de naturaleza sutil, este método es legal
 7. Perfil de WHOIS
-> Las bases de datos de WHOIS son mantenidas por registros regionales de Internet y contienen PI de los propietarios de dominios
+> Las bases de datos de WHOIS son mantenidas por registros regionales de Internet y contienen IPs de los propietarios de dominios
 8. DNS
 > El atacante puede recopilar información de DNS para determinar hosts clave en la red
 9. Red
@@ -26,11 +26,6 @@
 10. Ingeniería social
     1. Arte en la explotación del comportamiento humano para extraer información confidencial
     2. Los ingenieros sociales dependen del hecho de que las personas desconocen
-
-## Herramientas
-
-* Maltego
-* Recon-NG
 
 ## Contramedidas
 
