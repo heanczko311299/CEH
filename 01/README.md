@@ -1,19 +1,17 @@
 # Introducción a Ethical Hacking
 
-## Resumen
+## Terminología
 
-### Terminología
-
-* **Hack Value**: algo tiene vaor para ser explotable
+* **Hack Value**: algo tiene valor para ser explotable por en ethical hacker
 * **Vulnerabilidad**: Existencia de una debilidad, error de diseño o implementación que puede conducir a un evento esperado que comprometa la seguridad del sistema
-* **Exploit**: una violación de la seguridad del sistema de TI a través de vulnerabilidades
+* **Exploit**: la accion de violar la seguridad del sistema de TI a través de vulnerabilidades
 * **Payload**: parte de un código de explotación que realiza una acción maliciosa
 * **Ataque Zero-Day**: un ataque que aprovecha las vulnerabilidades de las aplicaciones informáticas antes de el desarrollador de software lanza un parche para la vulnerabilidad.
-* **Daisy Chaining**: Obtener acceso a una red y / o computadora y luego usar la misma información para acceder a múltiples redes y computadoras que contienen información deseable
+* **Daisy Chaining**: Obtener acceso a una red  y luego usar la misma información para acceder a múltiples redes y computadoras que contienen información deseable
 * **Doxing**: Publicar información de identificación personal
 * **Bot**: aplicación de software que se puede controlar de forma remota para ejecutar o automatizar tareas predefinidas
 
-### Elementos de seguridad de la información
+## Elementos de seguridad de la información
 
 * **No repudio**: El remitente de un mensaje no puede negar más tarde haber enviado el mensaje
 * **Confidencialidad**: solo los usuarios autorizados pueden ver el contenido
@@ -23,35 +21,34 @@
 
 ## Amenazas y vectores de ataque
 
-* **Cloud**: es una entrega a pedido de capacidades de TI y almacena datos. Debe ser seguro
 * **Amenazas persistentes avanzadas**: APT se enfoca en robar información de la máquina víctima sin el usuario
    consciente
-* **Virus y gusanos**: capaz de infectar una red en segundos
-* **Amenazas móviles**: muchos atacantes ven el teléfono móvil como una forma de obtener acceso
-* **Botnet**: enorme red de sistemas comprometidos
+* **Virus y gusanos**: codigo que infecta un sistema
+* **Amenazas móviles**:ataques por telefonos moviles
+* **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados ara realizar multiples ataques
 * **Insider Attack**: un ataque realizado en una red corporativa por una persona de confianza con acceso
 * **Categorías de amenazas**:
-  * Amenazas de red
-  * Host Amenazas
-  * Amenazas de aplicaciones
+- Amenazas de red
+- Host Amenazas
+- Amenazas de aplicaciones
 * **Tipos de ataques**:
-  * Ataques al sistema operativo
-  * Ataques de mala configuración
-  * Ataques a nivel de aplicación
-  * Código de envoltura retráctil
+- Ataques al sistema operativo
+- Ataques de mala configuración
+- Ataques a nivel de aplicación
+- Código de ReverseShell
 
 ## Conceptos, tipos y fases de hacking
 
-> Hacking: explotación de las vulnerabilidades del sistema y comprometer la seguridad
-
 ### Cinco fases del hacking:
 
-* **Reconocimiento**: fase de preparación cuando un atacante busca recopilar información. No interactúa directamente con el sistema y se basa en la ingeniería social y la información pública.
-* **Escaneo** - Identifique vulnerabilidades específicas \ (sondeo en profundidad \) Usando escáneres de puertos para detectar puertos de escucha \ (las empresas deben cerrar los puertos que no son necesarios \)
+* **Reconocimiento**: fase de preparación cuando un atacante busca recopilar información
 
-* **Obtener acceso**: uso de vulnerabilidades identificadas durante el reconocimiento \ [DoS, lógica / tiempo Explotar, reconfigurar / bloquear el sistema \]
+* **Escaneo**: Identifique vulnerabilidades específicas, escánea puertos para detectar puertos de escucha
 
-* **ManteniendoAcceso**: mantener un perfil bajo, mantener el sistema como plataforma de lanzamiento, etc.
+* **Obtener acceso**: explotación de vulnerabilidades identificadas durante el reconocimiento
+
+* **Manteniendo Acceso**: mantener un perfil bajo pero de acceso permanente, mantener el sistema como plataforma de lanzamiento, etc.
+
 * **Borrar pistas**: ocultar actos maliciosos mientras continúa teniendo acceso, evitando sospecha
 
 ## Controles de seguridad
@@ -66,13 +63,13 @@
 4. Identificar amenazas
 5. Identificar vulnerabilidades
 
-### Zonificación de seguridad de red \ (de mayor a menor \)
+### Zonificación de seguridad de red
 
-* Zona de Internet
-* DMZ de Internet
-* Producción Zona de red
-* Zona de intranet
-* Gestión de zona de red
+- Zona de Internet
+- MZ de Internet
+- Producción Zona de red
+- Zona de intranet
+- Gestión de zona de red
 
 ### Políticas de seguridad
 
@@ -81,50 +78,51 @@ proteger y asegurar los sistemas de información de las organizaciones.
 
 #### 4 tipos de políticas de seguridad
 
-* Política promiscua
-* Política permisiva
-* Política prudente
-* Política paranoica
+- Política promiscua
+- Política permisiva
+- Política prudente
+- Política paranoica
 
 ### Evaluaciones de vulnerabilidad
 
 #### Tipos de evaluaciones
 
-* Evaluaciones activas
-* Evaluaciones pasivas
-* Evaluación basada en el host
-* Evaluación interna
-* Evaluación externa
-* Evaluaciones de aplicaciones
-* Evaluaciones de red
-* Evaluaciones de redes inalámbricas
+- Evaluaciones activas
+- Evaluaciones pasivas
+- Evaluación basada en el host
+- Evaluación interna
+- Evaluación externa
+- Evaluaciones de aplicaciones
+- Evaluaciones de red
+- Evaluaciones de redes inalámbricas
 
 #### Metodología de evaluaciones
 
-* Adquisición
-* Identificación
-* Analizando
-* Evaluación
-* Informes
+- Adquisición
+- Identificación
+- Analizando
+- Evaluación
+- Informes
 
 ### Pruebas de intrusión
 
 > Prueba de intrusión: simulación de un ataque para descubrir vulnerabilidades
 
-* Equipo azul: detectar y mitigar
-* Equipo rojo: Ataque con acceso limitado con o sin advertencia
+- Ble Team: detectar y mitigar
+- Red Team: Ataque con acceso limitado con o sin advertencia
 
 #### Tipos de pruebas de intrusión
 
-* Black-Box  (sin conocimientos previos \)
-* White-Box  (conocimiento completo \)
-* Gray-Box  (conocimiento limitado \)
+- Black-Box: sin conocimientos
+- White-Box: conocimiento completo
+- Gray-Box: conocimiento limitado
 
 #### Metodologías de pruebas de intrusión
 
-* OWASP
-* NIST
-* CyberKillChain
+- OWASP
+- NIST
+- CyberKillChain
+- OSTTTM
 
 ## Leyes y estándares de seguridad
 
