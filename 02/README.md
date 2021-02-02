@@ -24,8 +24,7 @@
 9. Red
 > La información del alcance de la red ayuda a los atacantes a crear un mapa de la red objetivo
 10. Ingeniería social
-1. Arte en la explotación del comportamiento humano para extraer información confidencial
-2. Los ingenieros sociales dependen del hecho de que las personas desconocen
+> Arte en la explotación del comportamiento humano para extraer información confidencial, los ingenieros sociales dependen del hecho de que las personas desconocen
 
 ## Contramedidas
 
