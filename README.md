@@ -42,6 +42,7 @@ https://www.eccouncil.org/ceh-vs-pentest/
 
 ### Mis otros Repos
 * **[githack](https://github.com/heanczko311299/githack/blob/main/README.md)**
+* **[Curso CompTIA Pentest +](https://github.com/heanczko311299/Pentest_Plus/blob/main/README.md)**
 
 h4Ppy #@cK1n6 :)
 > Discord: heanczko#4478
