@@ -1,6 +1,6 @@
 # CEH
 
-> Repositorio en español de Certified Ethical Hacking de EC-Coucil, Certificacion de conocimientos sobre pirateria etica.
+> Repositorio Curso de Certified Ethical Hacking de EC-Coucil, Certificacion de conocimientos sobre pirateria etica.
 
 ### CEH
 ### Opinion de EC-Coucil
@@ -38,7 +38,7 @@ https://www.eccouncil.org/ceh-vs-pentest/
 * **[19. Cloud](https://github.com/heanczko311299/CEH/tree/main/19/README.md)**
 * **[20. Criptografia](https://github.com/heanczko311299/CEH/tree/main/20/README.md)**
 
-> Cada tema incluye un caso practico, es necesario realizar algunas configuraciones, de todas encontraras referencias, tambien se incluye el PDF de EC-Coucil en cada tema
+> Se incluye el PDF de EC-Coucil en cada tema
 
 ### Mis otros Repos
 * **[githack](https://github.com/heanczko311299/githack/blob/main/README.md)**
