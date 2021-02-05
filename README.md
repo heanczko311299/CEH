@@ -1,9 +1,9 @@
 # CEH
 
-> Repositorio Curso de Certified Ethical Hacking de EC-Coucil, Certificacion de conocimientos sobre pirateria etica.
+> Repositorio Curso de Certified Ethical Hacking de EC-Council, Certificacion de conocimientos sobre pirateria etica.
 
 ### CEH
-### Opinion de EC-Coucil
+### Opinion de EC-Council
 
 La comparación de Ethical Hacker y Pentest es engañosa. El Ethical Hacking por sí solo NO realiza una prueba de penetración.
 
