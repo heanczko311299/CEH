@@ -45,7 +45,7 @@
 
 ## Envenenamiento por ARP
 
-- El Protocolo de resolución de direcciones es un protocolo sin estado que se utiliza para resolver direcciones IP en direcciones de máquina \ (MAC \)
+- El Protocolo de resolución de direcciones es un protocolo sin estado que se utiliza para resolver direcciones IP en direcciones de máquina
 - Todos los dispositivos de red difunden consultas ARP en la red para encontrar la dirección MAC de la máquina
 - Cuando una máquina necesita comunicarse con otra, busca en la tabla ARP. Si no está allí, ARP\_REQUEST se transmite a través de la red.
 - Los paquetes ARP se pueden falsificar
