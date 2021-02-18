@@ -9,19 +9,18 @@
 
 ## Técnicas de ingeniería social
 
-* Ingeniería social basada en humanos, Ingeniería social basada en computadora, Ingeniería social basada en dispositivos móviles
-* Ingeniería social basada en humanos
-* Ingeniería social inversa \ (el atacante se presenta como autoridad \)
-* Piggybacking \ ("Olvidé mi tarjeta de identificación, por favor ayúdenme \)
-* Tailgating \ (caminando directamente detrás de alguien para entrar \)
 * Ingeniería social basada en computadora
-* Cartas de engaño, obsequios, etc.
-* Ingeniería social basada en dispositivos móviles
-* Reempaquetado de aplicaciones legítimas
-* Aplicaciones de seguridad falsas
-* Ataque interno
-* Empleado descontento
-* Prevención: separación y rotación de funciones, privilegio mínimo, acceso controlado, registro y auditoría, políticas legales, archivo de datos críticos
+* Ingeniería social inversa (el atacante se presenta como autoridad)
+* Piggybacking (Olvidé mi tarjeta de identificación, por favor ayúdenme)
+- Tailgating (caminando directamente detrás de alguien para entrar)
+- Ingeniería social basada en computadora
+- Cartas de engaño, obsequios, etc.
+- Ingeniería social basada en dispositivos móviles
+- Reempaquetado de aplicaciones legítimas
+- Aplicaciones de seguridad falsas
+- Ataque interno
+- Empleado descontento
+- Prevención: separación y rotación de funciones, privilegio mínimo, acceso controlado, registro y auditoría, políticas legales, archivo de datos críticos
 
 ## Suplantación de identidad en sitios de redes sociales
 
@@ -29,8 +28,11 @@
 
 ## Robo de identidad
 
-* Cuando alguien roba tu PI
+- Cuando alguien roba tu PIN
 
 ## Contramedidas de ingeniería social
 
-* Cambio de contraseña periódico, buenas políticas, etc.
+- Cambio de contraseña periódico, buenas políticas, etc.
+
+h4Ppy #@cK1n6 :)
+> Discord: heanczko#4478
