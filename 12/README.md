@@ -6,11 +6,11 @@
 
 * Un IDS inspecciona todo el tráfico de red entrante y saliente en busca de patrones sospechosos que puedan indicar una violación de la seguridad de la red.
   * Comprueba el tráfico en busca de firmas que coincidan con los patrones de intrusión conocidos
-  * Detección de anomalías \ (detección de comportamiento \)
+  * Detección de anomalías 
   * Detección de anomalías de protocolo
   * Indicaciones de intrusiones
   * Intrusiones del sistema
-  * Presencia de nuevos archivos / programas
+  * Presencia de nuevos archivos
   * Cambios en los permisos de archivos
   * Cambios inexplicables en el tamaño del archivo
   * Archivos deshonestos
@@ -28,7 +28,7 @@
   * También conocido como DMZ contiene hosts que ofrecen servicios públicos. La zona DMZ solo responde a las solicitudes públicas y no tiene hosts a los que acceda la red privada
   * Cortafuegos de múltiples hogares
   * Un firewall con dos o más interfaces
-  * Zona desmilitarizada \ (DMZ \)
+  * Zona desmilitarizada 
   * Una red que sirve como un búfer entre la red interna segura e Internet insegura
   * Se puede crear usando un firewall con tres o más interfaces de red principales
   * Tipos de firewall
@@ -36,24 +36,18 @@
   * Pasarelas de nivel de circuito: funciona en la capa de sesiones. La información transmitida a una computadora remota a través de una puerta de enlace a nivel de circuito parece haberse originado en la puerta de enlace. Supervisan las solicitudes para crear sesiones y determinan si se permitirá la sesión. Permiten o evitan flujos de datos
   * Pasarelas de nivel de aplicación: los proxies de nivel de aplicación pueden filtrar paquetes en la aplicación más adelante del OSI
   * Cortafuegos de inspección multicapa con estado: combina los aspectos de los otros tres tipos de cortafuegos
-  * Tarro de miel
+  * Honeyot (tarro de miel)
   * Recurso del sistema de información que está configurado expresamente para atraer y atrapar a las personas que intentan penetrar en la red de una organización.
   * Honeypot puede registrar intentos de acceso al puerto, monitorear las pulsaciones de teclas del atacante, mostrar señales tempranas, etc.
-  * 2 tipos de Honeypots
   * Honeypots de baja interacción: simula solo un número limitado de servicios y aplicaciones. No se puede comprometer
-  * Honeypots de alta interacción: simula todos los servicios y aplicaciones. Puede ser completamente comprometido por atacantes.
-  * Captura información completa sobre un vector de ataque como técnicas de ataque
-  
-  ## Herramientas IDS
-
-* Resoplido
+  * Honeypots de alta interacción: simula todos los servicios y aplicaciones. Puede ser completamente comprometido por atacantes.  
 
 ## Evadir IDS
 
 * Ataque de inserción: IDS cree ciegamente y acepta el paquete
   * Evasión: el sistema final acepta un paquete que un IDS rechaza. El atacante está explotando la computadora host
   * Ataque DoS: los intentos de intrusión de los atacantes no se registrarán
-  * Ofuscación: codificar la carga útil del ataque de una manera que la computadora objetivo entienda, pero el IDS no lo hará \ (código polimórfico, etc \)
+  * Ofuscación: codificar la carga útil del ataque de una manera que la computadora objetivo entienda, pero el IDS no lo hará
   * Generación de falsos positivos: los atacantes con conocimiento del IDS de destino, crean paquetes solo para generar alertas. Hace que IDS genere una gran cantidad de alertas de falsos positivos. Luego úselo para ocultar el tráfico de ataque real
   * Empalme de sesiones
   * Técnica de evasión Unicode: los atacantes pueden convertir cadenas de ataque en caracteres Unicode para evitar la coincidencia de patrones y firmas en el IDS
@@ -86,7 +80,3 @@
 * Los atacantes crean paquetes de sondeo maliciosos para buscar servicios como HTTP sobre SSL, SMTP sobre SSL e IMAP.
   * Los puertos que muestran un servicio en particular en ejecución pero niegan un protocolo de enlace de tres vías indican la presencia de un honeypot
 
-## Contramedidas
-
-* Apague los puertos del conmutador asociados con los hosts de ataque conocidos
-  * Restablecer \ (RST \) sesiones TCP maliciosas
