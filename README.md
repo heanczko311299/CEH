@@ -38,8 +38,6 @@ https://www.eccouncil.org/ceh-vs-pentest/
 * **[19. Cloud](https://github.com/heanczko311299/CEH/tree/main/19/README.md)**
 * **[20. Criptografia](https://github.com/heanczko311299/CEH/tree/main/20/README.md)**
 
-> Se incluye el PDF de EC-Coucil en cada tema
-
 ### Mis otros Repos
 * **[githack](https://github.com/heanczko311299/githack/blob/main/README.md)**
 * **[Curso CompTIA Pentest +](https://github.com/heanczko311299/Pentest_Plus/blob/main/README.md)**
