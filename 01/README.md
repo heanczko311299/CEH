@@ -2,41 +2,39 @@
 
 ## Terminología
 
-* **Hack Value**: algo tiene valor para ser explotable por en ethical hacker
+* **Hack Value**: algo tiene valor para ser explotable por el atacante
 * **Vulnerabilidad**: Existencia de una debilidad, error de diseño o implementación que puede conducir a un evento esperado que comprometa la seguridad del sistema
 * **Exploit**: la accion de violar la seguridad del sistema de TI a través de vulnerabilidades
 * **Payload**: parte de un código de explotación que realiza una acción maliciosa
-* **Ataque Zero-Day**: un ataque que aprovecha las vulnerabilidades de las aplicaciones informáticas antes de el desarrollador de software lanza un parche para la vulnerabilidad.
-* **Daisy Chaining**: Obtener acceso a una red  y luego usar la misma información para acceder a múltiples redes y computadoras que contienen información deseable
-* **Doxing**: Publicar información de identificación personal
 * **Bot**: aplicación de software que se puede controlar de forma remota para ejecutar o automatizar tareas predefinidas
 
 ## Elementos de seguridad de la información
 
 * **No repudio**: El remitente de un mensaje no puede negar más tarde haber enviado el mensaje
+* **Autenticidad**: La cualidad de ser genuino
+
+
 * **Confidencialidad**: solo los usuarios autorizados pueden ver el contenido
 * **Integridad**: confiabilidad de los datos o recursos en la prevención de cambios
 * **Disponibilidad**: los sistemas de garantía son accesibles
-* **Autenticidad**: La cualidad de ser genuino
+
 
 ## Amenazas y vectores de ataque
 
-* **Amenazas persistentes avanzadas**: APT se enfoca en robar información de la máquina víctima sin el usuario
-   consciente
-* **Virus y gusanos**: codigo que infecta un sistema
-* **Amenazas móviles**:ataques por telefonos moviles
-* **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados ara realizar multiples ataques
+* **Phishing**: engaño a un usuario final para que acceda a lugares sin concentimiento.
+* **Virus y gusanos**: codigo que infecta un sistema.
+* **Amenazas móviles**:ataques por telefonos moviles.
+* **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados para realizar multiples ataques
 * **Insider Attack**: un ataque realizado en una red corporativa por una persona de confianza con acceso
+* **Ataque Zero-Day**: un ataque que aprovecha las vulnerabilidades de las aplicaciones informáticas antes de el desarrollador de software lanza un parche para la vulnerabilidad.
+* **Ingenieria inversa**: se revierte la construccion de software para vulnerarla.
 
-* **Categorías de amenazas**:
-1. Amenazas de red
-2. Host Amenazas
-3. Amenazas de aplicaciones
 * **Tipos de ataques**:
+
 1. Ataques al sistema operativo
 2. Ataques de mala configuración
 3. Ataques a nivel de aplicación
-4. Código de ReverseShell
+
 
 ## Conceptos, tipos y fases de hacking
 
@@ -109,8 +107,8 @@ proteger y asegurar los sistemas de información de las organizaciones.
 
 > Prueba de intrusión: simulación de un ataque para descubrir vulnerabilidades
 
-- Ble Team: detectar y mitigar
-- Red Team: Ataque con acceso limitado con o sin advertencia
+- BlueTeam: detectar y mitigar
+- RedTeam: Ataque con acceso limitado con o sin advertencia
 
 #### Tipos de pruebas de intrusión
 
