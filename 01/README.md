@@ -7,7 +7,7 @@
 * **Exploit**: obtener beneficio de los recursos de un sistema
 * **Payload**: codigo malicioso que se inserta para obtener un beneficio del sistema
 * **Phishing**: engaño a un usuario final para que acceda a lugares sin concentimiento
-* **Virus y gusanos**: codigo que infecta un sistema
+* **Malware**: codigo que infecta un sistema
 * **Amenazas móviles**: ataques por telefonos moviles
 * **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados para realizar multiples ataques
 * **Ataque Zero-Day**: aprovecha las vulnerabilidades de las aplicaciones antes de el desarrollador de software lanza un parche para la vulnerabilidad
@@ -25,7 +25,7 @@
 * **Integridad**: los datos no puedan ser modificados en algun proceso
 * **Disponibilidad**: siempre este disponible cuando se solicite
 
-### Pruebas de intrusión
+### Pruebas de intrusión (Pentest, Prueba de penetración)
 
 > Prueba de intrusión: simulación de un ataque para descubrir vulnerabilidades
 
@@ -34,7 +34,7 @@
 
 ### Conceptos, tipos y fases de pentest
 
-#### Cinco fases del hacking:
+#### Cinco fases del pentest:
 
 * **Reconocimiento**: fase de preparación cuando un atacante busca recopilar información
 * **Escaneo**: escánea sistemas en busca de vulnerabilidades
