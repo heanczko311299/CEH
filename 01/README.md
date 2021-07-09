@@ -34,13 +34,9 @@
 ### Cinco fases del hacking:
 
 * **Reconocimiento**: fase de preparación cuando un atacante busca recopilar información
-
 * **Escaneo**: Identifique vulnerabilidades específicas, escánea puertos para detectar puertos de escucha
-
 * **Obtener acceso**: explotación de vulnerabilidades identificadas durante el reconocimiento
-
 * **Manteniendo Acceso**: mantener un perfil bajo pero de acceso permanente, mantener el sistema como plataforma de lanzamiento, etc.
-
 * **Borrar pistas**: ocultar actos maliciosos mientras continúa teniendo acceso, evitando sospecha
 
 ### Pruebas de intrusión
@@ -62,29 +58,5 @@
 - NIST
 - CyberKillChain
 - OSTTTM
-
-## Leyes y estándares de seguridad
-
-### Estados Unidos
-
-#### Leyes
-
-* **Sarbanes Oxley Act (SOX \)**: Proteger a los inversores y al público aumentando la confiabilidad de divulgaciones corporativas
-* **Digital Millennium Copyright Act (DMCA \)**: protege la propiedad intelectual
-* **Gramm-Leech Bliley Act (GLBA \)**: Controla el uso de datos financieros personales
-* **Health Information Portability and Protection Act (HIPPA \)**: Privacidad de los registros médicos
-* **Family Educational Rights and Privacy Act (FERPA \)**: Protección de registros educativos
-* **Federal Information Security Management Act (FISMA \)**: las redes gubernamentales deben tener estándares de seguridad
-
-#### Estándares
-
-* **Payment card Industry Data Security Standard (PCI-DSS \)**:Sistemas de pago
-
-### Europa
-
-#### Leyes
-
-* **Computer Misuse Act of 1990**: aborda las actividades de piratería
-* **Human Rights Act of 1990**: garantiza la privacidad
 
 h4Ppy #@cK1n6 :)
