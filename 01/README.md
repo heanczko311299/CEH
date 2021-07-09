@@ -1,4 +1,5 @@
 # Introducción a Ethical Hacking 📚
+> El eslavon mas debil de la cadena de seguridad es el error humano
 
 ## Terminología 
 
@@ -10,7 +11,7 @@
 * **Malware**: codigo que infecta un sistema
 * **Amenazas móviles**: ataques por telefonos moviles
 * **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados para realizar multiples ataques
-* **Ataque Zero-Day**: aprovecha las vulnerabilidades de las aplicaciones antes de el desarrollador de software lanza un parche para la vulnerabilidad
+* **Ataque Zero-Day**: aprovecha las vulnerabilidades de las aplicaciones antes de el desarrollador de software lanza un parche
 * **Ingenieria inversa**: se revierte la construccion de software para vulnerarla
 * **Denegacion de servicios**: hacer que el sistema colapse y no permita ejecutar ningun servicio
 
