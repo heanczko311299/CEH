@@ -42,6 +42,8 @@
 * **Manteniendo Acceso**: crear un acceso permanente
 * **Borrar pistas**: ocultar los actos maliciosos realizados
 
+https://www.tryhackme.com/room/hackermethodology
+
 ##### Tipos de pruebas de intrusión
 
 - Black-Box: sin conocimientos
