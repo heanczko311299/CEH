@@ -1,40 +1,33 @@
-# Introducción a Ethical Hacking
+# Introducción a Ethical Hacking 📚
 
-## Terminología
+## Terminología 
 
 * **Hack Value**: algo tiene valor para ser explotable por el atacante
-* **Vulnerabilidad**: Existencia de una debilidad, error de diseño o implementación que puede conducir a un evento esperado que comprometa la seguridad del sistema
-* **Exploit**: la accion de violar la seguridad del sistema de TI a través de vulnerabilidades
-* **Payload**: parte de un código de explotación que realiza una acción maliciosa
-* **Bot**: aplicación de software que se puede controlar de forma remota para ejecutar o automatizar tareas predefinidas
+* **Vulnerabilidad**: Existencia de una debilidad o error en el sistema
+* **Exploit**: obtener beneficio de los recursos de un sistema
+* **Payload**: codigo malicioso que se inserta para obtener un beneficio del sistema
 
-## Elementos de seguridad de la información
+## Elementos de seguridad de la información 
 
 * **No repudio**: El remitente de un mensaje no puede negar más tarde haber enviado el mensaje
 * **Autenticidad**: La cualidad de ser genuino
 
+## Triada de seguridad
 
-* **Confidencialidad**: solo los usuarios autorizados pueden ver el contenido
-* **Integridad**: confiabilidad de los datos o recursos en la prevención de cambios
-* **Disponibilidad**: los sistemas de garantía son accesibles
+* **Confidencialidad**: solo pueda ser accesible a los usuarios permitidos
+* **Integridad**: los datos no puedan ser modificados en algun proceso
+* **Disponibilidad**: siempre este disponible cuando se solicite
 
 
 ## Amenazas y vectores de ataque
 
 * **Phishing**: engaño a un usuario final para que acceda a lugares sin concentimiento.
 * **Virus y gusanos**: codigo que infecta un sistema.
-* **Amenazas móviles**:ataques por telefonos moviles.
+* **Amenazas móviles**: ataques por telefonos moviles.
 * **Botnet**: enorme red de sistemas comprometidos, suelen ser utilizados para realizar multiples ataques
-* **Insider Attack**: un ataque realizado en una red corporativa por una persona de confianza con acceso
 * **Ataque Zero-Day**: un ataque que aprovecha las vulnerabilidades de las aplicaciones informáticas antes de el desarrollador de software lanza un parche para la vulnerabilidad.
 * **Ingenieria inversa**: se revierte la construccion de software para vulnerarla.
-
-* **Tipos de ataques**:
-
-1. Ataques al sistema operativo
-2. Ataques de mala configuración
-3. Ataques a nivel de aplicación
-
+* **Denegacion de servicios**: 
 
 ## Conceptos, tipos y fases de hacking
 
@@ -49,59 +42,6 @@
 * **Manteniendo Acceso**: mantener un perfil bajo pero de acceso permanente, mantener el sistema como plataforma de lanzamiento, etc.
 
 * **Borrar pistas**: ocultar actos maliciosos mientras continúa teniendo acceso, evitando sospecha
-
-## Controles de seguridad
-
-### Aseguramiento de información
-
-### Modelado de amenazas
-
-1. Identificar la seguridad
-2. Descripción general de la aplicación
-3. Aplicación de descomposición
-4. Identificar amenazas
-5. Identificar vulnerabilidades
-
-### Zonificación de seguridad de red
-
-- Zona de Internet
-- MZ de Internet
-- Producción Zona de red
-- Zona de intranet
-- Gestión de zona de red
-
-### Políticas de seguridad
-
-> La política de seguridad de la información define los requisitos básicos y las reglas que se deben implementar para
-proteger y asegurar los sistemas de información de las organizaciones.
-
-#### 4 tipos de políticas de seguridad
-
-- Política promiscua
-- Política permisiva
-- Política prudente
-- Política paranoica
-
-### Evaluaciones de vulnerabilidad
-
-#### Tipos de evaluaciones
-
-- Evaluaciones activas
-- Evaluaciones pasivas
-- Evaluación basada en el host
-- Evaluación interna
-- Evaluación externa
-- Evaluaciones de aplicaciones
-- Evaluaciones de red
-- Evaluaciones de redes inalámbricas
-
-#### Metodología de evaluaciones
-
-- Adquisición
-- Identificación
-- Analizando
-- Evaluación
-- Informes
 
 ### Pruebas de intrusión
 
@@ -148,4 +88,3 @@ proteger y asegurar los sistemas de información de las organizaciones.
 * **Human Rights Act of 1990**: garantiza la privacidad
 
 h4Ppy #@cK1n6 :)
-> Discord: heanczko#4478
